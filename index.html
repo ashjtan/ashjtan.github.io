@@ -4,12 +4,12 @@
 <head>
     <link rel="stylesheet" href="home.css"></link>        <!-- Links css file -->
     <script src="home.js"></script>                       <!-- Links javascript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 
 
-<body bgcolor="#F4F4F4">
-
+<body>
 
     <title>Ashley Tan's Profile</title>
 
@@ -24,14 +24,29 @@
 
     <h2>Other Profiles</h2>
 
-    <a href="https://instagram.com/tinynotan"><img src="home_resources/ig-logo.png" width="40" height="40" alt="instagram.com/tinynotan"></a>
+    <a href="https://instagram.com/tinynotan"><img src="home_resources/ig-logo.png" width="40" height="40" alt="instagram.com/tinynotan" title="ig"></a>
 
-    <a href="https://facebook.com/tinynotan"><img src="home_resources/fb-logo.png" width="40" height="40" alt="facebook.com/tinynotan"></a>
+    <a href="https://facebook.com/tinynotan"><img src="home_resources/fb-logo.png" width="40" height="40" alt="facebook.com/tinynotan" title="fb"></a>
 
-    <a href="https://twitter.com/tinynotan"><img src="home_resources/twt-logo.png" width="40" height="40" alt="twitter.com/tinynotan"></a>
+    <a href="https://twitter.com/tinynotan"><img src="home_resources/twt-logo.png" width="40" height="40" alt="twitter.com/tinynotan" title="twt"></a>
 
-    <a href="https://soundcloud.com/tinynotan"><img src="home_resources/sc-logo.png" width="40" height="40" alt="soundcloud.com/tinynotan"></a>
+    <a href="https://soundcloud.com/tinynotan"><img src="home_resources/sc-logo.png" width="40" height="40" alt="soundcloud.com/tinynotan" title="sc"></a>
 
+    <!--Sidebar-->
+        <div class="sidebar"onloadedmetadata="">SIDEBAR HERE
+            <center>
+                <p><form name="jump">
+                    <select name="menu" onChange="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;"
+                        value="GO" style="width: 50px; height: 15px; font-size: 10px; font-family: Helvetica;">
+                        <option value="#">navi</option>
+                        <option value="index.html">home</option>
+                        <option value="about.html">about me</option>
+                        <option value="{text:full link 3 url}">{text:link 3}</option>
+                        <option value="{text:full link 4 url}">{text:link 4}</option>
+                        <option value="{text:full link 5 url}">{text:link 5}</option>
+                    </select>
+                </form></center></div>
+        <div style="height: 1000px"></div>
 </body>
 
 </html>

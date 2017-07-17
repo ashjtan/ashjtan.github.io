@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="home.css"></link>                  <!-- Links css file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    <!-- Allows JQuery -->
+    <script type="text/javascript" src="home.js"></script>          <!-- Links javascript file -->
+</head>
+
+
+
+<body>
+    <h2>Hobbies</h2>
+    <img class = "pixel" src="about_resources/pokemon.gif" width="70" height="70" alt="playing pokemon" title="pokemon">
+    <img class = "pixel" src="about_resources/guitar.gif" width="70" height="70" alt="playing guitar" title="guitar">
+    <img class = "pixel" src="about_resources/coffee.gif" width="70" height="70" alt="going to cafes" title="cafes">
+    <img class = "pixel" src="about_resources/ds.gif" width="70" height="70" alt="watching video games" title="video games">
+
+    <h2>Favorite Foods</h2>
+    <img class = "pixel" src="about_resources/burger.gif" width="70" height="70" alt="burger" title="burger">
+    <img class = "pixel" src="about_resources/chicken.gif" width="70" height="70" alt="chicken" title="chicken">
+    <img class = "pixel" src="about_resources/taco.gif" width="70" height="70" alt="tacos" title="tacos">
+    <img class = "pixel" src="about_resources/noodles.gif" width="70" height="70" alt="noodles" title="noodles">
+
+
+    <form class="comment_box">
+         <h2>Comments</h2>
+         <label>Name:</label>
+         <input type="text" id="comment_name" size="30">
+         <textarea id="comment_area" rows="4" cols="50"></textarea>
+         <input type="button" id="comment_ok" value="OK">
+      </form>
+
+      <div id="comment_list">
+
+      </div>
+
+
+
+      <!--Sidebar-->
+      <div class="sidebar"onloadedmetadata="">SIDEBAR HERE
+          <center>
+              <p><form name="jump">
+                  <select name="menu" onChange="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;"
+                    value="GO" style="width: 50px; height: 15px; font-size: 10px; font-family: Helvetica;">
+                    <option value="#">navi</option>
+                    <option value="index.html">home</option>
+                    <option value="about.html">about me</option>
+                    <option value="{text:full link 3 url}">{text:link 3}</option>
+                    <option value="{text:full link 4 url}">{text:link 4}</option>
+                    <option value="{text:full link 5 url}">{text:link 5}</option>
+                </select>
+            </form></center></div>
+    <div style="height: 1000px"></div>
+
+
+
+</body>
+
+</html>
